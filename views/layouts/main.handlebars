@@ -14,7 +14,7 @@
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
-        <div class="navbar-brand">
+        {{!-- <div class="navbar-brand">
           <a class="navbar-item">
             <h1 class="title is-1">Tech Blog</h1>
           </a>
@@ -23,7 +23,7 @@
             <span></span>
             <span></span>
           </span>
-        </div>
+        </div> --}}
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item is-active">
@@ -36,6 +36,9 @@
               <a class="button is-primary is-inverted">
                 <span>Login</span>
               </a>
+              <a class="button is-primary is-danger is-light">
+                <span>Logout</span>
+              </a>
             </span>
           </div>
         </div>
@@ -47,11 +50,11 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <p class="title">
-        Title
+        Tech Blog
       </p>
-      <p class="subtitle">
-        Subtitle
-      </p>
+      {{!-- <p class="subtitle">
+        Homepage
+      </p> --}}
     </div>
   </div>
 </section>
@@ -59,7 +62,7 @@
     <div class="notification">
   
       {{{body}}}
-      
+
     </div>
   </div>
 </body>
