@@ -4,10 +4,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Tech Blog</title>
 </head>
 <body>
-  <h1>Testing</h1>
-  {{{body}}}
+  {{!-- <h1 class="is-size-1">Testing</h1> --}}
+<section class="hero is-primary is-small">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <h1 class="title is-1">Tech Blog</h1>
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active">
+              Home
+            </a>
+            <a class="navbar-item">
+              Dashboard
+            </a>
+            <span class="navbar-item">
+              <a class="button is-primary is-inverted">
+                <span>Login</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="title">
+        Title
+      </p>
+      <p class="subtitle">
+        Subtitle
+      </p>
+    </div>
+  </div>
+</section>
+  <div class="container is-max-desktop">
+    <div class="notification">
+  
+      {{{body}}}
+      
+    </div>
+  </div>
 </body>
 </html>
