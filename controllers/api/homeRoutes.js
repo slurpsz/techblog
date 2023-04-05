@@ -19,4 +19,7 @@ router.get("/singlepost", async (req, res) => {
   res.render("singlepost");
 });
 
+// router.get("/new-posts", async (req, res) => {
+//   res.render("new-posts");
+// })
 module.exports = router;
