@@ -15,4 +15,8 @@ router.get("/dashboard", async (req, res) => {
   res.render("dashboard");
 });
 
+router.get("/singlepost", async (req, res) => {
+  res.render("singlepost");
+});
+
 module.exports = router;
